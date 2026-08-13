@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mvn__MED_Provider_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>This unique identifier should be unique per org and as accurate as possible as it is commonly used for generic record matching across other products (both internal and 3rd party systems).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Industry standard number by region or country. Ex: NPI for health care providers in the US</inlineHelpText>
+    <label>Provider ID</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
